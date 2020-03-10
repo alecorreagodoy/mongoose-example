@@ -18,6 +18,10 @@ const usersSchema = new mongoose.Schema({
         require: true,
         min: 5,
         max: 255
+    },
+    "password": {
+        type: types.String,
+        require: true
     }
 })
 
